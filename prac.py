@@ -23,4 +23,3 @@ st.header('Scatter Plot')
 fig = px.scatter(df,x="tip",y='total_bill',size='total_bill',color='sex',hover_name='time', size_max=17,range_x=[0,5],range_y=[0,40]
 , animation_frame='day',animation_group='smoker' )
 st.write(fig)
-git confi
